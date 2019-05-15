@@ -1,0 +1,7 @@
+https://www.kaggle.com/mlg-ulb/creditcardfraud
+Comment: 
+1. empirical evidence showed that TDA is good at time series analysis;
+2. papers showed that TDA is particularly useful to find anomalies in the data space; (Gidea 2018; Umeda 2019)
+3. this is an anonymous data, in which all variable labels except time and transaction amount are unknown. Since TDA is suppose to be model free, it's interesting to see how good it can be when applied to an anonymous dataset.
+4. fraud detection results are unreliable, in the sense that actuall fraud count is usually different than the recored fraud count. TDA is suppose to extract anomaly from data structure instead of coefficients from any specifid model, hence it should be more reliable theoratically
+5. In a real life scenario, an improvement about fraud detection is more economical in the sense that raise for successful detection rate from 80% to 90% can half the actuall loss due to financial fraud.
